@@ -12,11 +12,12 @@ var serverversion = new MySqlServerVersion( new Version(8, 0, 31)); // avisa a v
 
 builder.Services.AddDbContext<LojaSisMVCContext>(options => options.UseMySql(connString, serverversion, builder => builder.MigrationsAssembly("LojaSisMVC")));
 
-
+builder.Services.AddScoped<SeedingService>();
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
+
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
