@@ -85,6 +85,14 @@
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
+      "Id": "C:\\Users\\1394\\Desktop\\Projetos\\LojaSis\\LojaSisMVC\\LojaSisMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-united.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-united.css"
+    },
+    {
+      "Id": "C:\\Users\\1394\\Desktop\\Projetos\\LojaSis\\LojaSisMVC\\LojaSisMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-united.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-united.min.css"
+    },
+    {
       "Id": "C:\\Users\\1394\\Desktop\\Projetos\\LojaSis\\LojaSisMVC\\LojaSisMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "40Qfv1giM3Pr0SEbvWJiu3U+7MxoRvtjyC1ckfFs9VE=",
+  "Hash": "5GvA1Sq3/KI+2xfMxMgZCjI7F6JCm88lJSE0+z1lGeI=",
   "Source": "LojaSisMVC",
   "BasePath": "_content/LojaSisMVC",
   "Mode": "Default",
@@ -508,6 +508,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\1394\\Desktop\\Projetos\\LojaSis\\LojaSisMVC\\LojaSisMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-united.css",
+      "SourceId": "LojaSisMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\1394\\Desktop\\Projetos\\LojaSis\\LojaSisMVC\\LojaSisMVC\\wwwroot\\",
+      "BasePath": "_content/LojaSisMVC",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-united.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-united.css"
+    },
+    {
+      "Identity": "C:\\Users\\1394\\Desktop\\Projetos\\LojaSis\\LojaSisMVC\\LojaSisMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-united.min.css",
+      "SourceId": "LojaSisMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\1394\\Desktop\\Projetos\\LojaSis\\LojaSisMVC\\LojaSisMVC\\wwwroot\\",
+      "BasePath": "_content/LojaSisMVC",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-united.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-united.min.css"
     },
     {
       "Identity": "C:\\Users\\1394\\Desktop\\Projetos\\LojaSis\\LojaSisMVC\\LojaSisMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
