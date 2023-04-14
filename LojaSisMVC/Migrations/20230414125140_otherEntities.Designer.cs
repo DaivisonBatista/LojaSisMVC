@@ -3,6 +3,7 @@ using System;
 using LojaSisMVC.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -10,9 +11,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace LojaSisMVC.Migrations
 {
     [DbContext(typeof(LojaSisMVCContext))]
-    partial class LojaSisMVCContextModelSnapshot : ModelSnapshot
+    [Migration("20230414125140_otherEntities")]
+    partial class otherEntities
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

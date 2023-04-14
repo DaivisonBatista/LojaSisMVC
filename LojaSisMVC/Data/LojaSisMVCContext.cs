@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using LojaSisMVC.Models;
+using LojaSisMVC.Models.enums;
 
 namespace LojaSisMVC.Data
 {
@@ -14,6 +15,8 @@ namespace LojaSisMVC.Data
         {
         }
 
-        public DbSet<LojaSisMVC.Models.Departments> Departments { get; set; } = default!;
+        public DbSet<Departments> Departments { get; set; } = default!;
+        public DbSet<Seller> Seller { get; set; }
+        public DbSet<SalesRecord> SalesRecord { get; set; }
     }
 }
