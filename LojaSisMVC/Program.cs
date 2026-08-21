@@ -7,10 +7,12 @@ using Microsoft.AspNetCore.Hosting;
 
 
 var builder = WebApplication.CreateBuilder(args);
-var connString = builder.Configuration.GetConnectionString("LojaSisMVCContext"); // Conecção com Context
-var serverversion = new MySqlServerVersion( new Version(8, 0, 31)); // avisa a versão que está o MySql
+var connString = builder.Configuration.GetConnectionString("LojaSisMVCContext")
+    ?? throw new InvalidOperationException(
+        "Connection string 'LojaSisMVCContext' não foi configurada.");
 
-builder.Services.AddDbContext<LojaSisMVCContext>(options => options.UseMySql(connString, serverversion, builder => builder.MigrationsAssembly("LojaSisMVC")));
+builder.Services.AddDbContext<LojaSisMVCContext>(options =>
+    options.UseMySQL(connString));
 
 builder.Services.AddScoped<SeedingService>();
 // Add services to the container.
