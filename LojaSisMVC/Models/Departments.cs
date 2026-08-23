@@ -6,7 +6,7 @@ namespace LojaSisMVC.Models
     public class Departments
     {
         public int Id { get; set; }
-        public string Nome { get; set; }
+        public string Nome { get; set; } = string.Empty;
         public ICollection<Seller> Sellers { get; set; } = new List<Seller>();
 
         public Departments() 
@@ -23,7 +23,7 @@ namespace LojaSisMVC.Models
         {
             Sellers.Add(seller);
         }
-        public double TotalSales(DateTime incial, DateTime final)
+        public decimal TotalSales(DateTime incial, DateTime final)
         {
             return Sellers.Sum(seller => seller.TotalSales(incial, final));
         }
